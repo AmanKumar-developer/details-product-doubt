@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.similar-product-item-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.similar-product-image {
+  width: 200px;
+  margin-right: 64px;
+}
+.similar-product-title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+.similar-product-brand {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.similar-product-rating-container {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-left: 8px;
+}
+.price-and-rating-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
